@@ -15,15 +15,14 @@ int main(void)
     int car_width = 30;
     int car_height = 50;
     float car_x = width / 2 - car_width / 2;
-    // float car_y = height / 2 - car_height / 2;
-    float car_y = height;
+    float car_y = height / 2 - car_height / 2;
     float car_speed = 0;
     float car_max_speed = 15;
     int car_direction = 0;
     float car_rotation = 0;
     float rotation_speed = 20;
     float car_speedup = 5;
-    float car_speeddown = 10;
+    float car_speeddown = 15;
 
     while (!WindowShouldClose())
     {
